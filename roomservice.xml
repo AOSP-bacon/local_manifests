@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remove-project name="platform/build" />
+  <project name="AOSP-bacon/platform_build" path="build" remote="github" revision="custom-kernel">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="platform/external/libnfc-nci" />
+  <project name="AOSP-bacon/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="nougat" />
+
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="AOSP-bacon/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="nougat" />
+
+  <remove-project name="platform/hardware/qcom/bt" />
+  <project name="AOSP-bacon/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="nougat" />
+
+  <remove-project name="platform/hardware/qcom/display" />
+  <project name="AOSP-bacon/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="nougat_8994" />
+
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="AOSP-bacon/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="nougat" />
+
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project name="AOSP-bacon/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="nougat" />
+
+  <remove-project name="platform/frameworks/base" />
+  <project name="AOSP-bacon/platform_frameworks_base" path="frameworks/base" remote="github" revision="nougat" />
+
+  <remove-project name="platform/frameworks/av" />
+  <project name="AOSP-bacon/android_frameworks_av" path="frameworks/av" remote="github" revision="nougat" />
+
+  <project name="AOSP-bacon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="nougat" />
+  <project name="AOSP-bacon/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat" />
+  <project name="AOSP-bacon/android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="github" revision="cm-13.0" />
+  <project name="AOSP-bacon/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="nougat" />
+  <project name="AOSP-bacon/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
+  <project name="AOSP-bacon/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" clone-depth="1" />
+</manifest>
+
