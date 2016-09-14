@@ -32,6 +32,12 @@
   <remove-project name="platform/frameworks/av" />
   <project name="AOSP-bacon/android_frameworks_av" path="frameworks/av" remote="github" revision="nougat" />
 
+  <remove-project name="platform/system/vold" />
+  <project name="AOSP-bacon/android_system_vold" path="system/vold" remote="github" revision="nougat" />
+
+  <remove-project name="platform/system/core" />
+  <project name="AOSP-bacon/platform_system_core" path="system/core" remote="github" revision="nougat" />
+
   <project name="AOSP-bacon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="nougat" />
   <project name="AOSP-bacon/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat" />
   <project name="AOSP-bacon/android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="github" revision="cm-13.0" />
