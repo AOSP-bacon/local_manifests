@@ -51,6 +51,10 @@
   <remove-project name="platform/external/libnfc-nci" />
   <project name="AOSP-bacon/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="nougat-dr1" />
 
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project name="AOSP-bacon/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="nougat-dr1" />
+
   <!-- device -->
   <project name="AOSP-bacon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="nougat-dr1" />
   <project name="AOSP-bacon/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat" />
