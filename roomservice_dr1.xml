@@ -29,13 +29,15 @@
   <project name="AOSP-bacon/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="nougat-dr1" />
 
   <remove-project name="platform/hardware/qcom/display" />
-  <project name="AOSP-bacon/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="nougat_8994" />
+  <!--<project name="AOSP-bacon/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="nougat_8994" />-->
+  <project name="AOSPlusone/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm8974" remote="github" revision="nougat" />
 
   <remove-project name="platform/hardware/qcom/power" />
   <project name="AOSP-bacon/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="nougat" />
 
   <remove-project name="platform/hardware/qcom/media" />
-  <project name="AOSP-bacon/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="nougat" />
+  <!--<project name="AOSP-bacon/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="nougat" />-->
+  <project name="AOSPlusone/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm8974" remote="github" revision="nougat" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
