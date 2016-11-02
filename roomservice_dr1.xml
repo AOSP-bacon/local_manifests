@@ -18,7 +18,10 @@
   <remove-project name="platform/frameworks/native" />
   <project name="AOSP-bacon/android_frameworks_native" path="frameworks/native" remote="github" revision="nougat-dr1" />
 
-  <!-- hardware/qcom -->
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="AOSP-bacon/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="nougat-dr1" />
+
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="AOSP-bacon/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="nougat-dr1" />
 
