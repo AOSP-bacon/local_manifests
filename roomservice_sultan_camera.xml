@@ -64,7 +64,7 @@
   <project name="AOSP-bacon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="nougat-dr1-sultan-camera" />
   <project name="AOSP-bacon/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat" />
   <project name="AOSP-bacon/android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="github" revision="cm-13.0" />
-  <project name="AOSP-bacon/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="nougat-dr1-sultan-camera" />
+  <project name="AOSP-bacon/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="nougat-dr1-caf" />
   <project name="AOSP-bacon/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="AOSP-bacon/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat-dr1-sultan" clone-depth="1" />
   <project path="external/sony/boringssl-compat" name="sultanxda/android_external_sony_boringssl-compat" revision="cm-13.0" />
