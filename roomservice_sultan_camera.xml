@@ -55,6 +55,8 @@
   <!-- external -->
   <remove-project name="platform/external/libnfc-nci" />
   <project name="AOSP-bacon/android_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="nougat-dr1" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="AOSP-bacon/android_external_sqlite" path="external/sqlite" remote="github" revision="nougat-dr1" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
