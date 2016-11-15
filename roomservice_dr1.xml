@@ -85,7 +85,7 @@
   <project name="AOSP-bacon/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat" clone-depth="1" />
 
   <!-- new toolchain -->
-  <remove-project name="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
 
   <!-- remove unneeded stuff -->
