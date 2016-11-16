@@ -36,8 +36,7 @@
   <project name="AOSP-bacon/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="nougat-dr1" />
 
   <remove-project name="platform/hardware/qcom/display" />
-  <!--<project name="AOSP-bacon/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="nougat_8994" />-->
-  <project name="AOSPlusone/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm8974" remote="github" revision="nougat" />
+  <project name="AOSP-bacon/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm8974" remote="github" revision="nougat" />
 
   <remove-project name="platform/hardware/qcom/power" />
   <project name="AOSP-bacon/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="nougat" />
@@ -87,7 +86,7 @@
   <project name="AOSP-bacon/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="nougat-dr1-caf" />
   <project name="AOSP-bacon/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="AOSP-bacon/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat-dr1-sultan" clone-depth="1" />
-  <project path="external/sony/boringssl-compat" name="sultanxda/android_external_sony_boringssl-compat" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" remote="github" name="sultanxda/android_external_sony_boringssl-compat" revision="cm-13.0" />
 
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
